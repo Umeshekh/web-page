@@ -2,9 +2,13 @@
 window.onload = function() {
   document.getElementById("splash-screen").style.display = "flex";
   setTimeout(function() {
+    var splashImg = document.getElementById("splash-img");
+    splashImg.style.top = "-200px";
+  }, 1000);
+  setTimeout(function() {
     document.getElementById("splash-screen").style.display = "none";
     window.location.replace("home.html");
-  }, 900);
+  }, 2000);
 };
 
 /*function playVideo() {
