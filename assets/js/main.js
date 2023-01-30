@@ -4,11 +4,11 @@ window.onload = function() {
   setTimeout(function() {
     var splashImg = document.getElementById("splash-img");
     splashImg.style.top = "-200px";
-  }, 1000);
+  }, 900);
   setTimeout(function() {
     document.getElementById("splash-screen").style.display = "none";
     window.location.replace("home.html");
-  }, 2100);
+  }, 1800);
 };
 
 /*function playVideo() {
