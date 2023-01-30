@@ -20,7 +20,7 @@ const signUp = () => {
     firebase.auth().createUserWithEmailAndPassword(email, password)
         .then((result) => {
             // Signed in 
-            location.href = "index.html";
+            location.href = "dashboard.html";
             //document.write("You are Signed Up")
             console.log(result)
             // ...
@@ -41,7 +41,7 @@ const signIn = () => {
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((result) => {
             // Signed in 
-            location.href = "index.html";
+            location.href = "dashboard.html";
             //document.write("You are Signed In")
             console.log(result)
         })
