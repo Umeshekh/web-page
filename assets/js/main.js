@@ -159,7 +159,7 @@ function onOpenHandler () {
   });
   
   document.getElementById("pay-button").addEventListener("click", function(){
-    Instamojo.open('https://www.instamojo.com/@abhishektwar');
+    Instamojo.open('https://www.instamojo.com/@abhishektilwar');
   });
   
 // try
