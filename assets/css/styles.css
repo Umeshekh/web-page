@@ -381,7 +381,7 @@ img{
 }
 
 .menu__img{
-  width: 100px;
+  width: 200px;
   align-self: center;
   margin-bottom: var(--mb-2);
 }
