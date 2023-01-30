@@ -4,7 +4,7 @@ window.onload = function() {
   setTimeout(function() {
     document.getElementById("splash-screen").style.display = "none";
     window.location.replace("home.html");
-  }, 1000);
+  }, 900);
 };
 
 /*function playVideo() {
