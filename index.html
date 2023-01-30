@@ -10,40 +10,14 @@
 
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
-        <script src="https://www.youtube.com/iframe_api"></script>
-
-        <script>
-          document.addEventListener("DOMContentLoaded", function() {
-            var iframe = document.querySelector(".laptop iframe");
-            iframe.src += "?autoplay=1";
-          });
-        </script>
+        <script async src="https://www.youtube.com/iframe_api"></script>
         
         <title>Code Beyond</title>
 
     </head>
-       <script>
-        /*function playVideo() {
-          var playerDiv = document.getElementById("player");
-          var width = window.getComputedStyle(playerDiv,null).getPropertyValue("width");
-          var height = window.getComputedStyle(playerDiv,null).getPropertyValue("height");
-          var player = new YT.Player('player', {
-            height: height,
-            width: width,
-            videoId: 'scLLOsxzA-k',
-            events: {
-              'onReady': onPlayerReady,
-            }
-          });
-        }
-    
-        function onPlayerReady(event) {
-          event.target.playVideo();
-        }*/
-      </script>
 
       <!--*************************BODY**************************-->
-    <body onload="playVideo()">
+    <body>
 
         <!--========== SCROLL TOP ==========-->
         <a href="#" class="scrolltop" id="scroll-top">
@@ -90,7 +64,7 @@
                       <img src="assets/img/home_blank.png" width="300px" margin="auto">
                       <div class="laptop">
                         <div class="content">
-                          <iframe width="98%" height="100%" src="https://www.youtube.com/embed/scLLOsxzA-k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <iframe width="98%" height="100%" src="https://www.youtube.com/embed/scLLOsxzA-k?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                       </div>
                   
@@ -352,7 +326,8 @@
         <img src="assets/img/Vodafone-Logo.png" alt="Sponsor 3">
       </div>
       <h1> </h1>
-      <h2>  & more..</h2>
+      
+      <h2><a href="assets/Alumni.html" style="color: grey" >& more..</a></h2>
     </div>
   </div>
 

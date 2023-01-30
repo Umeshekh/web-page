@@ -573,6 +573,14 @@ img{
   .contact__button{
     justify-self: center;
   }
+  .dashboard__button{
+    justify-self: center;
+    background-color: #4e5d94;
+    color: #FFF;
+    padding: .50rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+  }
 }
 
 @media screen and (min-width: 768px){
@@ -591,6 +599,7 @@ img{
     display: flex;
   }
   .nav__item{
+    justify-self: center;
     margin-left: var(--mb-5);
     margin-bottom: 0;
   }
@@ -723,6 +732,7 @@ img{
   }
 }
 */
+
 
 
 .sign_up {
