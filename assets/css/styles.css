@@ -641,10 +641,7 @@ img{
   .menu__container{
     margin-top: var(--mb-6);
   }
-  .menu__container4{
-    grid-template-columns: repeat(4, 280px);
-    column-gap: 4rem;
-  }
+
   .menu__container{
     grid-template-columns: repeat(3, 280px);
     column-gap: 4rem;
