@@ -545,7 +545,14 @@ img{
   color: var(--text-color-light);
   margin-top: 3.5rem;
 }
-
+.dashboard__button{
+  justify-self: center;
+  background-color: #4e5d94;
+  color: #FFF;
+  padding: .50rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+}
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
   .home__container,
