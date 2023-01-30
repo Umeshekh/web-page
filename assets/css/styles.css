@@ -744,6 +744,7 @@ img{
 
 
 .sign_up {
+  justify-self: center;
   background-color: black;
   color: white;
   font-weight: 900;
@@ -753,6 +754,7 @@ img{
 }
 
 .log_in {
+  justify-self: center;
   border: 1px solid black;
   font-weight: 900;
   height: 40px;
