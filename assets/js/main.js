@@ -1,3 +1,12 @@
+
+window.onload = function() {
+  document.getElementById("splash-screen").style.display = "flex";
+  setTimeout(function() {
+    document.getElementById("splash-screen").style.display = "none";
+    window.location.replace("home.html");
+  }, 1000);
+};
+
 /*function playVideo() {
     var video = document.getElementById("video");
     video.style.display = "block";
